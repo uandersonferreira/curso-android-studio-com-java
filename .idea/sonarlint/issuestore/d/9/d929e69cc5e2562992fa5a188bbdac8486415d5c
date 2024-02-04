@@ -1,5 +1,10 @@
 
-f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’úòá
-k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œ„±Ëıÿÿÿÿ
-J
-java:S1604"(Make this anonymous inner class a lambda(ƒø…Òÿÿÿÿÿ8ğ·Ó°×1
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğŞĞ²ıÿÿÿÿ8ØÙ ²×1
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÄÓøşÿÿÿÿ8ØÙ ²×1
+l	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿŒ¦V8ÙÙ ²×1
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿¨ı•8ÙÙ ²×1
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(å‚Ğüùÿÿÿÿ8ÙÙ ²×1
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğ›’Úüÿÿÿÿ8ÙÙ ²×1
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Æ…–ı8ÙÙ ²×1
+D
+java:S1659""Declare "num2" on a separate line.(ÒôÙæùÿÿÿÿ8®Ú ²×1

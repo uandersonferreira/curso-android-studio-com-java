@@ -1,5 +1,13 @@
 <resources>
-    <string name="app_name">Operacoes básicas</string>
-    <string name="nome">Uanderson Oliveira</string>
-    <string name="curso">Curso de Android studio</string>
+    <string name="app_name">Calculadora Simples</string>
+
+    <string name="somar">SOMAR</string>
+    <string name="subtrair">SUBTRAIR</string>
+    <string name="multiplicar">MULTIPLICAR</string>
+    <string name="dividir">DIVIDIR</string>
+
+    <string name="valor1">Digite o primeiro valor</string>
+    <string name="valor2">Digite o segundo valor</string>
+
+    <string name="autor">Uanderson Oliveira</string>
 </resources>

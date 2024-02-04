@@ -8,58 +8,91 @@
 
     <LinearLayout
         android:layout_width="409dp"
-        android:layout_height="241dp"
-        android:layout_marginStart="1dp"
-        android:layout_marginTop="1dp"
-        android:layout_marginEnd="6dp"
-        android:layout_marginBottom="553dp"
-        android:background="@color/cinza"
+        android:layout_height="match_parent"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0">
-
-        <EditText
-            android:id="@+id/et_nome"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="text" />
-
-        <Button
-            android:id="@+id/button"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Button" />
+        app:layout_constraintTop_toTopOf="parent">
 
         <TextView
-            android:id="@+id/tv_curso"
+            android:id="@+id/textView"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/curso" />
-
-        <TextView
-            android:id="@+id/tv_appName"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/app_name" />
-
-        <TextView
-            android:id="@+id/tv_autor"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/nome"
-            android:textColor="@color/purple_700"
+            android:layout_height="52dp"
+            android:numeric="decimal"
+            android:text="@string/app_name"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textSize="18sp"
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/tv_nome"
+            android:id="@+id/tv_valor1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="#FF9800" />
+            android:text="@string/valor1"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/et_valor1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:text="0" />
+
+        <TextView
+            android:id="@+id/tv_valor2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/valor2"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/et_valor2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:numeric="decimal"
+            android:text="0" />
+
+        <TextView
+            android:id="@+id/tv_resultado"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textAlignment="center"
+            android:textColor="@color/purple_200"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_soma"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/somar" />
+
+        <Button
+            android:id="@+id/btn_subtrai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/subtrair" />
+
+        <Button
+            android:id="@+id/btn_multiplica"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/multiplicar" />
+
+        <Button
+            android:id="@+id/btn_divide"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dividir" />
 
     </LinearLayout>
 
