@@ -1,10 +1,39 @@
 
-r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğŞĞ²ıÿÿÿÿ8ØÙ ²×1
-r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÄÓøşÿÿÿÿ8ØÙ ²×1
-l	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿŒ¦V8ÙÙ ²×1
-m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿¨ı•8ÙÙ ²×1
-r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(å‚Ğüùÿÿÿÿ8ÙÙ ²×1
-r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğ›’Úüÿÿÿÿ8ÙÙ ²×1
-m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Æ…–ı8ÙÙ ²×1
+u	java:S116"TRename this field "btn_somar" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñö†Ñÿÿÿÿÿ8Ìá Ù1
+x	java:S116"WRename this field "btn_subtrair" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñö†Ñÿÿÿÿÿ8Ìá Ù1
+{	java:S116"ZRename this field "btn_multiplicar" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñö†Ñÿÿÿÿÿ8Ìá Ù1
+w	java:S116"VRename this field "btn_dividir" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñö†Ñÿÿÿÿÿ8Ìá Ù1
+x	java:S116"WRename this field "tv_resultado" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŒÊÉ¶üÿÿÿÿ8Ìá Ù1
+p	java:S116"TRename this field "et_valor1" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼®Ç8Ìá Ù1
+p	java:S116"TRename this field "et_valor2" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼®Ç8Ìá Ù1
 D
-java:S1659""Declare "num2" on a separate line.(ÒôÙæùÿÿÿÿ8®Ú ²×1
+java:S1659""Declare "num2" on a separate line.(Ûğˆıÿÿÿÿ8©Ìá Ù1
+k
+java:S1659"IDeclare "btn_subtrair" and all following declarations on a separate line.(ñö†Ñÿÿÿÿÿ8ªÌá Ù1
+D
+java:S1659"'Declare "et_valor2" on a separate line.(¼®Ç8…ä Ù1
+|
+java:S1450"ZRemove the "btn_dividir" field and declare it as a local variable in the relevant methods.(ñö†Ñÿÿÿÿÿ8®´å Ù1
+€
+java:S1450"^Remove the "btn_multiplicar" field and declare it as a local variable in the relevant methods.(ñö†Ñÿÿÿÿÿ8®´å Ù1
+z
+java:S1450"XRemove the "btn_somar" field and declare it as a local variable in the relevant methods.(ñö†Ñÿÿÿÿÿ8¯´å Ù1
+}
+java:S1450"[Remove the "btn_subtrair" field and declare it as a local variable in the relevant methods.(ñö†Ñÿÿÿÿÿ8°´å Ù1
+]	java:S125*"<This block of commented-out lines of code should be removed.(†ğ…¬ûÿÿÿÿ8±˜›¡Ù1
+M
+java:S1172Q"+Remove this unused method parameter "view".(Ä›ñİúÿÿÿÿ8²˜›¡Ù1
+M
+java:S1172V"+Remove this unused method parameter "view".(ß·“Çùÿÿÿÿ8´˜›¡Ù1
+H
+java:S1172\"+Remove this unused method parameter "view".(Ôç¨¸8¶˜›¡Ù1
+M
+java:S1172b"+Remove this unused method parameter "view".(¾óşÅøÿÿÿÿ8¸˜›¡Ù1
+O
+java:S1068"-Remove this unused "btn_somar" private field.(ñö†Ñÿÿÿÿÿ8ÜÌá Ù1
+R
+java:S1068"0Remove this unused "btn_subtrair" private field.(ñö†Ñÿÿÿÿÿ8İÌá Ù1
+U
+java:S1068"3Remove this unused "btn_multiplicar" private field.(ñö†Ñÿÿÿÿÿ8æÿá Ù1
+Q
+java:S1068"/Remove this unused "btn_dividir" private field.(ñö†Ñÿÿÿÿÿ8½¯â Ù1

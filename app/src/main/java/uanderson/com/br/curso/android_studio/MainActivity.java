@@ -10,7 +10,10 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
-    double num1 = 0, num2 = 0;
+    private double num1 = 0, num2 = 0;
+    private Button btn_somar, btn_subtrair, btn_multiplicar, btn_dividir;
+    private TextView tv_resultado;
+    private EditText et_valor1, et_valor2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,17 +22,24 @@ public class MainActivity extends AppCompatActivity {
 
 
         // Associando os elementos da view ao código java que irá manipular eles.
-        Button btn_somar = (Button) findViewById(R.id.btn_soma);
-        Button btn_subtrair = (Button) findViewById(R.id.btn_subtrai);
-        Button btn_multiplicar = (Button) findViewById(R.id.btn_multiplica);
-        Button btn_dividir = (Button) findViewById(R.id.btn_divide);
+        btn_somar = findViewById(R.id.btn_soma);
+        btn_subtrair = findViewById(R.id.btn_subtrai);
+        btn_multiplicar = findViewById(R.id.btn_multiplica);
+        btn_dividir = findViewById(R.id.btn_divide);
 
-        TextView tv_resultado = (TextView) findViewById(R.id.tv_resultado);
+        tv_resultado = findViewById(R.id.tv_resultado);
 
-        EditText et_valor1 = (EditText) findViewById(R.id.et_valor1);
-        EditText et_valor2 = (EditText) findViewById(R.id.et_valor2);
+        et_valor1 = findViewById(R.id.et_valor1);
+        et_valor2 = findViewById(R.id.et_valor2);
+        /*
+            Fazendo a associação de eventos de cliques nos botões através do proprio .xml
+            android:onClick="dividir"
+            Creio que esteja depreciado, pois aprece riscado, mas não deixa de ser uma forma válida
+            de fazer a associação.
+         */
 
-        btn_somar.setOnClickListener(new View.OnClickListener() {
+
+/*        btn_somar.setOnClickListener(new View.OnClickListener() {
             @Override
             @SuppressLint("DefaultLocale")
             public void onClick(View v) {
@@ -65,8 +75,33 @@ public class MainActivity extends AppCompatActivity {
                 num2 = Double.parseDouble(et_valor2.getText().toString());
                 tv_resultado.setText(String.format("%.2f", (num1 / num2)));
             }
-        });
-    }//method
+        });*/
+    }//method onCreated
+
+    public void somar(View view) {
+        num1 = Double.parseDouble(et_valor1.getText().toString());
+        num2 = Double.parseDouble(et_valor2.getText().toString());
+        tv_resultado.setText(String.format("%.2f", (num1 + num2)));
+    }
+    public void subtrair(View view) {
+        num1 = Double.parseDouble(et_valor1.getText().toString());
+        num2 = Double.parseDouble(et_valor2.getText().toString());
+        tv_resultado.setText(String.format("%.2f", (num1 - num2)));
+    }
+
+    public void multiplicar(View view) {
+        num1 = Double.parseDouble(et_valor1.getText().toString());
+        num2 = Double.parseDouble(et_valor2.getText().toString());
+        tv_resultado.setText(String.format("%.2f", (num1 * num2)));
+    }
+
+    public void dividir(View view) {
+        num1 = Double.parseDouble(et_valor1.getText().toString());
+        num2 = Double.parseDouble(et_valor2.getText().toString());
+        tv_resultado.setText(String.format("%.2f", (num1 / num2)));
+    }
+
+
 }//class
 
 /*
@@ -74,5 +109,6 @@ TUDO está declarado/possui uma instância na class R
 
 R.  layout      .activity_main
 R,  categoria  , item que desejo ter acesso/utilizar
+Button - componente do tipo View
 
  */
