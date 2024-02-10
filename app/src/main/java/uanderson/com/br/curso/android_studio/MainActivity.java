@@ -3,6 +3,7 @@ package uanderson.com.br.curso.android_studio;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
+import android.app.AlertDialog;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -80,13 +81,16 @@ public class MainActivity extends AppCompatActivity {
             valueTotal += valueFaca * Double.parseDouble(editTextFaca.getText().toString());
         }
         textViewResultado.setText("Valor total: R$ " + valueTotal);
+
+        AlertDialog.Builder alertDialog = new AlertDialog.Builder(this);//passando o context em que será mostrado a msg
+        alertDialog.setMessage("Valor da locação Calculado");
+        alertDialog.setNeutralButton("OK", null);
+        alertDialog.show();
+
         Toast.makeText(this, "Valor da locação Calculado", Toast.LENGTH_LONG).show();
-        Toast.makeText(this, "TESTE TOAST 1", Toast.LENGTH_SHORT).show();
-        Toast.makeText(this, "TESTE TOAST 2", Toast.LENGTH_SHORT).show();
-        Toast.makeText(this, "TESTE TOAST 3", Toast.LENGTH_SHORT).show();
-        Toast.makeText(this, "TESTE TOAST FINAL", Toast.LENGTH_LONG).show();
         //E mostardos na ordem em que são declarados, são empilhados, esperam um acabar para mostrar
         //o próximo.
+
 
     }
 
