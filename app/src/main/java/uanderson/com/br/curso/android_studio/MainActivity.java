@@ -9,6 +9,7 @@ import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     private double valueTaca, valuePrato, valueGarfo, valueFaca, valueTotal;
@@ -62,6 +63,8 @@ public class MainActivity extends AppCompatActivity {
     }//method onCreated
 
     public void calcucar(){
+        //Verificando manualmente cada um dos checkBox implementados e realizando o cálculo.
+
         valueTotal = 0.0;
 
         if (checkBoxTaca.isChecked()){
@@ -77,11 +80,16 @@ public class MainActivity extends AppCompatActivity {
             valueTotal += valueFaca * Double.parseDouble(editTextFaca.getText().toString());
         }
         textViewResultado.setText("Valor total: R$ " + valueTotal);
+        Toast.makeText(this, "Valor da locação Calculado", Toast.LENGTH_LONG).show();
+        Toast.makeText(this, "TESTE TOAST 1", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "TESTE TOAST 2", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "TESTE TOAST 3", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "TESTE TOAST FINAL", Toast.LENGTH_LONG).show();
+        //E mostardos na ordem em que são declarados, são empilhados, esperam um acabar para mostrar
+        //o próximo.
 
     }
-    /*
-        Verificando manualmente cada um dos checkBox implementados e realizando o cálculo.
-     */
+
 
 }//class
 
