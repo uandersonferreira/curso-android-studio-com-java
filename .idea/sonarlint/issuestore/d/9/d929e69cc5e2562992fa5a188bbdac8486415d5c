@@ -1,39 +1,30 @@
 
-u	java:S116"TRename this field "btn_somar" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ρφ†Ρÿÿÿÿÿ8Μα Ω1
-x	java:S116"WRename this field "btn_subtrair" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ρφ†Ρÿÿÿÿÿ8Μα Ω1
-{	java:S116"ZRename this field "btn_multiplicar" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ρφ†Ρÿÿÿÿÿ8Μα Ω1
-w	java:S116"VRename this field "btn_dividir" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ρφ†Ρÿÿÿÿÿ8Μα Ω1
-x	java:S116"WRename this field "tv_resultado" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ΚΙ¶όÿÿÿÿ8Μα Ω1
-p	java:S116"TRename this field "et_valor1" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ό®Η8Μα Ω1
-p	java:S116"TRename this field "et_valor2" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ό®Η8Μα Ω1
+u	java:S116"TRename this field "btn_somar" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ρφ†Ρÿÿÿÿÿ8›«φ΅Ω1
+x	java:S116"WRename this field "btn_subtrair" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ρφ†Ρÿÿÿÿÿ8«φ΅Ω1
+{	java:S116"ZRename this field "btn_multiplicar" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ρφ†Ρÿÿÿÿÿ8«φ΅Ω1
+w	java:S116"VRename this field "btn_dividir" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ρφ†Ρÿÿÿÿÿ8«φ΅Ω1
+x	java:S116"WRename this field "tv_resultado" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ΚΙ¶όÿÿÿÿ8«φ΅Ω1
+p	java:S116"TRename this field "et_valor1" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ό®Η8«φ΅Ω1
+p	java:S116"TRename this field "et_valor2" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ό®Η8«φ΅Ω1
 D
-java:S1659""Declare "num2" on a separate line.(Ϋπύÿÿÿÿ8©Μα Ω1
+java:S1659""Declare "num2" on a separate line.(Ϋπύÿÿÿÿ8 «φ΅Ω1
 k
-java:S1659"IDeclare "btn_subtrair" and all following declarations on a separate line.(ρφ†Ρÿÿÿÿÿ8ªΜα Ω1
+java:S1659"IDeclare "btn_subtrair" and all following declarations on a separate line.(ρφ†Ρÿÿÿÿÿ8 «φ΅Ω1
 D
-java:S1659"'Declare "et_valor2" on a separate line.(Ό®Η8…δ Ω1
+java:S1659"'Declare "et_valor2" on a separate line.(Ό®Η8 «φ΅Ω1
 |
-java:S1450"ZRemove the "btn_dividir" field and declare it as a local variable in the relevant methods.(ρφ†Ρÿÿÿÿÿ8®΄ε Ω1
+java:S1450"ZRemove the "btn_dividir" field and declare it as a local variable in the relevant methods.(ρφ†Ρÿÿÿÿÿ8 «φ΅Ω1
 €
-java:S1450"^Remove the "btn_multiplicar" field and declare it as a local variable in the relevant methods.(ρφ†Ρÿÿÿÿÿ8®΄ε Ω1
+java:S1450"^Remove the "btn_multiplicar" field and declare it as a local variable in the relevant methods.(ρφ†Ρÿÿÿÿÿ8 «φ΅Ω1
 z
-java:S1450"XRemove the "btn_somar" field and declare it as a local variable in the relevant methods.(ρφ†Ρÿÿÿÿÿ8―΄ε Ω1
+java:S1450"XRemove the "btn_somar" field and declare it as a local variable in the relevant methods.(ρφ†Ρÿÿÿÿÿ8 «φ΅Ω1
 }
-java:S1450"[Remove the "btn_subtrair" field and declare it as a local variable in the relevant methods.(ρφ†Ρÿÿÿÿÿ8°΄ε Ω1
-]	java:S125*"<This block of commented-out lines of code should be removed.(†π…¬ϋÿÿÿÿ8±›΅Ω1
-M
-java:S1172Q"+Remove this unused method parameter "view".(Δ›ρέϊÿÿÿÿ8²›΅Ω1
-M
-java:S1172V"+Remove this unused method parameter "view".(ί·“Ηωÿÿÿÿ8΄›΅Ω1
-H
-java:S1172\"+Remove this unused method parameter "view".(Τη¨Έ8¶›΅Ω1
-M
-java:S1172b"+Remove this unused method parameter "view".(ΎσώΕψÿÿÿÿ8Έ›΅Ω1
+java:S1450"[Remove the "btn_subtrair" field and declare it as a local variable in the relevant methods.(ρφ†Ρÿÿÿÿÿ8΅«φ΅Ω1
 O
-java:S1068"-Remove this unused "btn_somar" private field.(ρφ†Ρÿÿÿÿÿ8άΜα Ω1
+java:S1068"-Remove this unused "btn_somar" private field.(ρφ†Ρÿÿÿÿÿ8­«φ΅Ω1
 R
-java:S1068"0Remove this unused "btn_subtrair" private field.(ρφ†Ρÿÿÿÿÿ8έΜα Ω1
+java:S1068"0Remove this unused "btn_subtrair" private field.(ρφ†Ρÿÿÿÿÿ8­«φ΅Ω1
 U
-java:S1068"3Remove this unused "btn_multiplicar" private field.(ρφ†Ρÿÿÿÿÿ8ζÿα Ω1
+java:S1068"3Remove this unused "btn_multiplicar" private field.(ρφ†Ρÿÿÿÿÿ8­«φ΅Ω1
 Q
-java:S1068"/Remove this unused "btn_dividir" private field.(ρφ†Ρÿÿÿÿÿ8½―β Ω1
+java:S1068"/Remove this unused "btn_dividir" private field.(ρφ†Ρÿÿÿÿÿ8­«φ΅Ω1
